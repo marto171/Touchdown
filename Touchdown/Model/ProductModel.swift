@@ -28,6 +28,6 @@ struct Product: Identifiable, Codable {
     }
     
     var formattedPrice: String {
-        return "BGN \(price).\(Int.random(in: 49...99))"
+        return "$\(price).\(Int.random(in: 49...99))"
     }
 }
